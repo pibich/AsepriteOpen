@@ -1,0 +1,9 @@
+# Ignore large debug symbol files (GitHub has a 100MB file size limit; aseprite.pdb is ~147MB)
+*.pdb
+
+# Build temporary files and caches
+*.obj
+*.ilk
+*.exp
+.build/
+build/
